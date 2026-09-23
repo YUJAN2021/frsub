@@ -27,21 +27,25 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "162.159.244.91",
+      "server": "172.67.200.222",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "2-m13.4b49F101-6328-41c6-953d-00CeB79b58ac.KDnS.Fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "2-M13.4B49f101-6328-41C6-953d-00Ceb79B58aC.KDnS.FR"
         }
       }
     },
