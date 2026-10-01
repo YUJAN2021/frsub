@@ -5,20 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
-      "server": "89.218.15.90",
-      "server_port": 10002,
-      "uuid": "392fcc7e-b995-11f1-a6b7-1b2272a86bd5",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "104.21.69.37",
+      "server_port": 443,
+      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
       "tls": {
         "enabled": true,
-        "server_name": "kz1.vpnjantit.com",
-        "insecure": false
+        "server_name": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/vpnjantit",
+        "path": "/vl/uWq9DFRgj8BwQiSXmZ46",
         "headers": {
-          "Host": "kz1.vpnjantit.com"
+          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
         }
       }
     },
@@ -27,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
