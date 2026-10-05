@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 167.82.76.27
+  server: 199.232.78.160
   port: 443
   udp: true
   type: trojan
