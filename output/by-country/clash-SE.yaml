@@ -26,12 +26,12 @@ proxies:
     public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
     short-id: d0ea1847066af5a6
   servername: www.samsung.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: edge-lab-b.10media.top
+  server: 45.12.63.219
   port: 443
   udp: true
   type: vless
@@ -39,24 +39,24 @@ proxies:
   tls: true
   servername: edge-lab-b.10media.top
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: swedenfeed
 - name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  server: hy-se.bypassme.online
+  server: 94.143.231.146
   port: 443
   udp: true
-  type: hysteria2
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
-  sni: hy-se.bypassme.online
+  type: vless
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  tls: true
+  servername: sub.merky.top
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
-  server: mui.firzav.ir
-  port: 1080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ZJdYmMiJBWkbTZ5nExBRpQ_f7uIG7wL4
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: sub.merky.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,7 +66,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,6 +75,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
 rules:
 - MATCH,PROXIES
