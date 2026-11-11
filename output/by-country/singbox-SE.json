@@ -26,14 +26,15 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-      "server": "70.34.207.14",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "138.199.55.230",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
+        "server_name": "xmfhlpy.com",
         "insecure": false
       }
     },
@@ -78,6 +79,26 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
+      "server": "70.34.207.14",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - xiaohe",
+      "server": "70.34.212.124",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AxIYWtskJWIIaefW"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -86,7 +107,9 @@
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 07 - xiaohe"
       ]
     },
     {
@@ -97,7 +120,9 @@
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 06 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
