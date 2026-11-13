@@ -15,7 +15,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   server: 13.140.56.100
   port: 14430
@@ -26,35 +26,32 @@ proxies:
   ws-opts:
     path: /vless
 - name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: 13.140.253.35
+  server: 178.212.35.198
   port: 443
   udp: true
   type: vless
-  uuid: f1d3c8af71c4ef75625fcf446aa2c15b
+  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   tls: true
-  servername: xray-h0urp9tx-rapid-summit-2.cloady.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /050334203cc522a3
-    headers:
-      Host: xray-h0urp9tx-rapid-summit-2.cloady.io
+  reality-opts:
+    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
+    short-id: 6bdc8320
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 04 - xiaohe
   server: 13.140.253.35
   port: 443
   udp: true
   type: vless
-  uuid: bcd3798c-a56f-6bfc-b738-a17c43bd4a50
+  uuid: f1d3c8af-71c4-ef75-625f-cf446aa2c15b
   tls: true
-  servername: xray-m0642ki4-silver-nebula-10.cloady.io
+  servername: xray-h0urp9tx-rapid-summit-2.cloady.io
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /362b2b2c7197d648
+    path: /050334203cc522a3
     headers:
-      Host: xray-m0642ki4-silver-nebula-10.cloady.io
+      Host: xray-h0urp9tx-rapid-summit-2.cloady.io
 proxy-groups:
 - name: PROXIES
   type: select

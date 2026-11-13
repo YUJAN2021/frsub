@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -37,23 +37,20 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "13.140.253.35",
+      "server": "178.212.35.198",
       "server_port": 443,
-      "uuid": "f1d3c8af71c4ef75625fcf446aa2c15b",
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
         "enabled": true,
-        "server_name": "xray-h0urp9tx-rapid-summit-2.cloady.io",
-        "insecure": false,
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/050334203cc522a3",
-        "headers": {
-          "Host": "xray-h0urp9tx-rapid-summit-2.cloady.io"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
         }
       }
     },
@@ -62,21 +59,21 @@
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "server": "13.140.253.35",
       "server_port": 443,
-      "uuid": "bcd3798c-a56f-6bfc-b738-a17c43bd4a50",
+      "uuid": "f1d3c8af-71c4-ef75-625f-cf446aa2c15b",
       "tls": {
         "enabled": true,
-        "server_name": "xray-m0642ki4-silver-nebula-10.cloady.io",
+        "server_name": "xray-h0urp9tx-rapid-summit-2.cloady.io",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/362b2b2c7197d648",
+        "path": "/050334203cc522a3",
         "headers": {
-          "Host": "xray-m0642ki4-silver-nebula-10.cloady.io"
+          "Host": "xray-h0urp9tx-rapid-summit-2.cloady.io"
         }
       }
     },
