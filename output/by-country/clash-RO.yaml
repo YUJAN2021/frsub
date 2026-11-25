@@ -16,35 +16,18 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: 185.247.224.206
-  port: 443
-  udp: true
-  type: vless
-  uuid: 83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e
-  tls: true
-  servername: lagoon.gerqix.online
-  skip-cert-verify: false
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /api/de5/stream
-    headers:
-      Host: lagoon.gerqix.online
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
 rules:
 - MATCH,PROXIES
